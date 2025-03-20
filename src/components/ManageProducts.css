@@ -1,0 +1,55 @@
+/* src/components/ManageProducts.css */
+.manage-products {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for the admin area */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.manage-products h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.manage-products form {
+    margin-bottom: 20px;
+}
+
+.manage-products input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Adjust width to fit */
+}
+
+.manage-products button {
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.manage-products button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+.manage-products ul {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.manage-products li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.manage-products button {
+    margin-left: 10px;
+}

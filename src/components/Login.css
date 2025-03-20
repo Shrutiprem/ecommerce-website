@@ -1,0 +1,86 @@
+/* src/components/Login.css
+.login-form {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    right: 20px; 
+    z-index: 1000; 
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input, 
+  .login-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .login-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #218838;
+  }
+   */
+
+   /* src/components/Login.css */
+.login-form {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    height: auto;
+    width: 350px; /* Increased width for better visibility */
+    position: fixed;
+    margin-top: 300px;
+    right: 20px; /* Positioning near the orders link in the header */
+    z-index: 1000; /* Make sure it appears above other elements */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h2{
+    color: black;
+    text-align: center;
+  }
+  .login-form input,
+  .login-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .login-form button {
+    background-color: #10471d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #04340e;
+  }
+  
+  /* Ensure select dropdown is styled similarly */
+  .login-form select {
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,117 @@
+/* Add this to src/components/Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.site-title {
+  font-size: 24px;
+  color: #f0db4f;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #218838;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: #f0db4f;
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f0db4f;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.categories-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.categories-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+.dropdown-item:hover {
+  background-color: #f0db4f;
+  color: white;
+}

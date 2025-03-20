@@ -1,0 +1,27 @@
+/* src/components/Categories.css */
+.categories {
+    padding: 20px;
+  }
+  
+  .categories h2 {
+    margin-bottom: 20px;
+  }
+  
+  .categories-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .categories-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .categories-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

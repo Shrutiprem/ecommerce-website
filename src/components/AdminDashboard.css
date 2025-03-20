@@ -1,0 +1,35 @@
+/* src/components/AdminDashboard.css */
+.admin-dashboard {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for the admin area */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard nav {
+    margin-top: 20px;
+}
+
+.admin-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-dashboard li {
+    margin: 10px 0;
+}
+
+.admin-dashboard a {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: bold;
+}
+
+.admin-dashboard a:hover {
+    text-decoration: underline;
+}
